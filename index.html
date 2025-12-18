@@ -163,22 +163,6 @@
             display: inline-block;
         }
 
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -2px;
-            left: 0;
-            width: 50%;
-            height: 2px;
-            background: var(--accent-color);
-            animation: shimmer 3s ease-in-out infinite;
-        }
-
-        @keyframes shimmer {
-            0%, 100% { transform: translateX(0); }
-            50% { transform: translateX(100%); }
-        }
-
         /* Skills/Tech Stack */
         .tech-badge, .badge {
             font-size: 0.9rem;
